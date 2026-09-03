@@ -53,6 +53,12 @@ this.LN = LN;
 //you can create overloaded constructors by varying the parameter number, by varying the order(the sequence in which they are ex:stud(FN,LN, Sid) then using this.FN then Sid, string integer string
 
 public static void main(String[] args) {
+    Student s6=new Student ();
+    //setting names
+    s6.FN= "Melanie";
+    s6.setLN("Thomas");
+    s6.LN="Simpson";
+
 Student s4=new Student("Helena","Payton");
 System.out.println(s4.FN);
 System.out.println(s4.LN);//OC
